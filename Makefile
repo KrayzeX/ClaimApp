@@ -19,7 +19,7 @@ down:
 
 build:
 											clj -A:build
-											mv target/Clojure-TestApp-1.0.0-SNAPSHOT-standalone.jar testapp.jar
+											mv target/ClaimApp-1.0.0-SNAPSHOT-standalone.jar testapp.jar
 
 run-jar:
 											java -jar testapp.jar

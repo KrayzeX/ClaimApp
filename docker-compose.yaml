@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  test_dbase:
+    image: postgres
+    container_name: test
+    ports:
+      - "${PGPORT}:5432"
+    environment:
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_DB: test_db
+      POSTGRES_PASSWORD: ${PGPASSWORD}
+
+    networks:
+      - test-net
+
+networks:
+  test-net:
+    name: testsystem-net

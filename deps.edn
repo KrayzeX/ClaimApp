@@ -1,0 +1,38 @@
+;; /deps.edn
+
+{:paths ["tools" "app/src"]
+
+ :deps {org.clojure/clojure           {:mvn/version "1.10.1"}
+        org.clojure/java.jdbc         {:mvn/version "0.7.11"}
+        org.postgresql/postgresql     {:mvn/version "42.2.8.jre7"}
+        clj-postgresql/clj-postgresql {:mvn/version "0.7.0"}
+        clj-http/clj-http             {:mvn/version "3.10.0"}
+        clj-yaml/clj-yaml             {:mvn/version "0.4.0"}
+        hikari-cp/hikari-cp           {:mvn/version "2.9.0"}
+        honeysql/honeysql             {:mvn/version "1.0.444"}
+        ring/ring                     {:mvn/version "1.9.1"}
+        ring/ring-defaults            {:mvn/version "0.3.2"}
+        ring/ring-json                {:mvn/version "0.5.0"}
+        ring-cors/ring-cors           {:mvn/version "0.1.13"}
+        ring/ring-mock                {:mvn/version "0.4.0"}
+        compojure/compojure           {:mvn/version "1.6.1"}}
+
+ :aliases {:nrepl {:extra-deps
+                   {org.clojure/tools.cli         {:mvn/version "1.0.194"}
+                    nrepl/nrepl                   {:mvn/version "0.8.3"}
+                    refactor-nrepl/refactor-nrepl {:mvn/version "2.5.0-SNAPSHOT"}
+                    cider/cider-nrepl             {:mvn/version "0.23.0-SNAPSHOT"}}
+
+                   :jvm-opts   ^:replace ["-XX:-OmitStackTraceInFastThrow"]}
+
+           :build {:extra-deps
+                   {cambada/cambada {:git/url "https://github.com/HealthSamurai/cambada"
+                                     :sha     "e44a0bebd039285f3e10f15f5703d6eaf92672c7"}}
+                   :main-opts ["-m" "cambada.uberjar"
+                               "-a" "all"
+                               "-p" "resources"
+                               "--main" "core"
+                               "--app-group-id" "claimapp"
+                               "--app-artefact-id" "testapp"
+                               "--no-copy-source"]
+                   :jvm-opts   ^:replace ["-XX:-OmitStackTraceInFastThrow"]}}}

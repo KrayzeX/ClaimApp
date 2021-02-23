@@ -21,12 +21,16 @@ build:
 											clj -A:build
 											mv target/ClaimApp-1.0.0-SNAPSHOT-standalone.jar testapp.jar
 
+ui-build:
+											cd ui && clojure -m build
+
+
 run-jar:
 											java -jar testapp.jar
 
 nrepl:
 											make up
-											cd ui && clojure -A:dev:nrepl
+											cd ui && clj -A:dev:nrepl
 
 
 psql:

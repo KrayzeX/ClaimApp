@@ -1,7 +1,5 @@
 (ns ui.claim.list.model
   (:require [re-frame.core :as rf]
-            [day8.re-frame.http-fx]
-            [ajax.core :as ajax]
             [clojure.string :as str]))
 
 (rf/reg-event-fx

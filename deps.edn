@@ -1,6 +1,6 @@
 ;; /deps.edn
 
-{:paths ["tools" "app/src"]
+{:paths ["src" "resources"]
 
  :deps {org.clojure/clojure           {:mvn/version "1.10.1"}
         org.clojure/java.jdbc         {:mvn/version "0.7.11"}
@@ -31,7 +31,7 @@
                    :main-opts ["-m" "cambada.uberjar"
                                "-a" "all"
                                "-p" "resources"
-                               "--main" "core"
+                               "--main" "app.core"
                                "--app-group-id" "claimapp"
                                "--app-artefact-id" "testapp"
                                "--no-copy-source"]

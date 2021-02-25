@@ -3,8 +3,8 @@ It is a test application at Clojure/Clojurescript language for working with clai
 
 #### Useful commands
 
-Use `run-jar` to start application.
+Use `make start` to start application server.
+Use `make figwheel` to start ui. 
+After that `localhost:8181` link will open automatically in the browser
 
-At localhost:8080/testapp you can see: 
-
-![example](https://github.com/KrayzeX/Clojure-TestApp/blob/master/ui/resources/public/example.png)
+![example](https://github.com/KrayzeX/ClaimApp/blob/master/ui/resources/public/example.png)

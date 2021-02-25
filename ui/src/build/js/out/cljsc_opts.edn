@@ -1,1 +1,0 @@
-{:output-to "ui/src/build/js/ui.js", :source-map "ui/src/build/js/ui.js.map", :output-dir "ui/src/build/js/out", :infer-externs true, :optimizations :advanced, :main ui.prod}

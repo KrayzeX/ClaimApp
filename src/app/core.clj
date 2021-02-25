@@ -1,4 +1,4 @@
-(ns app.core
+(ns core
   (:require [clojure.string :as str]
             [clojure.pprint :as pp]
             [clojure.java.io :as io]
@@ -11,11 +11,9 @@
 
             [compojure.core :refer :all]
             [compojure.route :as route]
-            [app.dbcore :refer :all]
-            [app.crud :as crud])
+            [dbcore :refer :all]
+            [crud :as crud])
   (:gen-class))
-
-(slurp (io/resource "index.html"))
 
 (defroutes app-routes
   (GET "/claimlist" [] crud/claim-list)

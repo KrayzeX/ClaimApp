@@ -1,4 +1,4 @@
-(ns app.manifest)
+(ns manifest)
 
 (def db-config
   {:db {:host (or (System/getenv "PGHOST") "localhost")

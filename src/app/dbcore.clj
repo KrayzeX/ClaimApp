@@ -1,9 +1,9 @@
-(ns app.dbcore
+(ns dbcore
   (:require
    [hikari-cp.core :refer :all]
    [clojure.java.jdbc :as j]
    [clj-postgresql.core :as pg]
-   [app.manifest :as m]))
+   [manifest :as m]))
 
 (def pool-config (delay (pg/pool :host (get-in m/db-config [:db :host])
                                  :port (get-in m/db-config [:db :port])

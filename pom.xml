@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -34,33 +8,7 @@
   
   
   <modelVersion>4.0.0</modelVersion>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -68,33 +16,7 @@
   
   
   <groupId>claimapp</groupId>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -102,33 +24,7 @@
   
   
   <artifactId>ClaimApp</artifactId>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -136,67 +32,15 @@
   
   
   <version>1.0.0-SNAPSHOT</version>
-                                                                    
+                
   
   
   
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <name>Clojure-TestApp</name>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <name>ClaimApp</name>
+                
   
   
   
@@ -214,165 +58,9 @@
       <version>1.10.1</version>
           
     </dependency>
-        
-    <dependency>
-            
-      <groupId>clj-yaml</groupId>
-            
-      <artifactId>clj-yaml</artifactId>
-            
-      <version>0.4.0</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>compojure</groupId>
-            
-      <artifactId>compojure</artifactId>
-            
-      <version>1.6.1</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>ring-cors</groupId>
-            
-      <artifactId>ring-cors</artifactId>
-            
-      <version>0.1.13</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>ring</groupId>
-            
-      <artifactId>ring-defaults</artifactId>
-            
-      <version>0.3.2</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>clj-postgresql</groupId>
-            
-      <artifactId>clj-postgresql</artifactId>
-            
-      <version>0.7.0</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>honeysql</groupId>
-            
-      <artifactId>honeysql</artifactId>
-            
-      <version>1.0.444</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>ring</groupId>
-            
-      <artifactId>ring-json</artifactId>
-            
-      <version>0.5.0</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>org.postgresql</groupId>
-            
-      <artifactId>postgresql</artifactId>
-            
-      <version>42.2.8.jre7</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>clj-http</groupId>
-            
-      <artifactId>clj-http</artifactId>
-            
-      <version>3.10.0</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>org.clojure</groupId>
-            
-      <artifactId>java.jdbc</artifactId>
-            
-      <version>0.7.11</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>hikari-cp</groupId>
-            
-      <artifactId>hikari-cp</artifactId>
-            
-      <version>2.9.0</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>ring</groupId>
-            
-      <artifactId>ring</artifactId>
-            
-      <version>1.9.1</version>
-          
-    </dependency>
-        
-    <dependency>
-            
-      <groupId>ring</groupId>
-            
-      <artifactId>ring-mock</artifactId>
-            
-      <version>0.4.0</version>
-          
-    </dependency>
       
   </dependencies>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -380,67 +68,15 @@
   
   
   <build>
-                                                                                                                                        
+                                
     
     
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <sourceDirectory>src</sourceDirectory>
-                                                                                                                                      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    <sourceDirectory>tools</sourceDirectory>
+                              
   
   
   
@@ -448,33 +84,7 @@
   
   
   </build>
-                                                                    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+                
   
   
   
@@ -492,33 +102,7 @@
     </repository>
       
   </repositories>
-                                                                  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
 
 
 

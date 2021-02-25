@@ -1,5 +1,5 @@
-(ns app.crud
-  (:require [app.dbcore :as db]
+(ns crud
+  (:require [dbcore :as db]
             [honeysql.core :as hsql]
             [clojure.string :as str]))
 
